@@ -112,8 +112,6 @@ Make sure you have [Node.js](https://nodejs.org/) installed (v18+ recommended).
    ```
    *Open [http://localhost:5173](http://localhost:5173) in your browser.*
 
----
-
 ## 📡 API Documentation
 
 ### 1. Health Check

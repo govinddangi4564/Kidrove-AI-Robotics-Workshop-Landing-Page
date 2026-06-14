@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { WORKSHOP } from '../constants/workshop';
-import { CalendarDays, Clock, Laptop, Tag, AlertCircle, Share2, Check, Copy } from 'lucide-react';
+import { CalendarDays, Clock, Laptop, Tag, AlertCircle, Share2, Check } from 'lucide-react';
 import heroRobot from '../assets/hero_robotics.png';
 
 interface HeroProps {

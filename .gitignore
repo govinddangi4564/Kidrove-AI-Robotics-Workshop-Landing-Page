@@ -1,7 +1,42 @@
 # Dependency directories
 node_modules/
+client/node_modules/
+server/node_modules/
 
-# environment variables
+# Environment variables (highly sensitive)
 .env
+.env.local
 .env.*
 !.env.example
+client/.env
+client/.env.local
+client/.env.*
+server/.env
+server/.env.local
+server/.env.*
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Production / Bundler outputs
+dist/
+dist-ssr/
+client/dist/
+
+# Editor / IDE directories
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS metadata
+.DS_Store
+Thumbs.db

@@ -92,7 +92,9 @@ export const RegistrationForm: React.FC = () => {
     if (!validateForm()) return;
 
     setIsSubmitting(true);
-    const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+    const apiUrl = import.meta.env.VITE_API_URL !== undefined && import.meta.env.VITE_API_URL !== ''
+      ? import.meta.env.VITE_API_URL
+      : (import.meta.env.DEV ? 'http://localhost:5000' : '');
 
     try {
       const response = await fetch(`${apiUrl}/api/enquiry`, {

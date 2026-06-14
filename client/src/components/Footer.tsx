@@ -121,7 +121,7 @@ export const Footer: React.FC<FooterProps> = ({ onScrollToSection }) => {
 
         {/* Bottom Bar */}
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 text-xs text-slate-500 font-medium">
-          <p>© 2026 Kidrove. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Kidrove. All rights reserved.</p>
           <div className="flex space-x-6">
             <a href="#" className="hover:text-slate-400 transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-slate-400 transition-colors">Terms of Service</a>

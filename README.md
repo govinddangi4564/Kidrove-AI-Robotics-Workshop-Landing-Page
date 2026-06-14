@@ -168,3 +168,22 @@ Make sure you have [Node.js](https://nodejs.org/) installed (v18+ recommended).
       ]
     }
     ```
+
+---
+
+## 📌 Git Commit Convention
+
+Developers working on this project are instructed to follow this clean Git commit pattern for code changes:
+
+- `feat: add hero section`
+- `feat: add registration form with validation`
+- `feat: add express enquiry endpoint`
+- `fix: mobile navbar toggle`
+- `chore: add env config and readme`
+
+---
+
+## 📝 Submission Note
+
+I approached this assignment by breaking the UI into reusable React components — Navbar, Hero, WorkshopDetails, LearningOutcomes, FAQ, RegistrationForm, and Footer — each responsible for a single section. I used Tailwind CSS for responsive styling and React Hook Form for client-side validation with real-time feedback. The Express backend uses express-validator for field-level validation and returns structured error responses. MongoDB stores enquiries via Mongoose with a timestamped schema. Given more time, I would integrate Razorpay for fee collection, add an admin dashboard to manage registrations, send confirmation emails via Nodemailer, and write unit tests for the API using Jest and Supertest.
+
